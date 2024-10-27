@@ -12,6 +12,8 @@ const icons = [
 ];
 
 export const Statistics = ({ title, stats }) => {
+  console.log(stats);
+
   return (
     <>
       {title && <h2 className={style.title}>{title}</h2>}
