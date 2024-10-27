@@ -12,3 +12,7 @@
   justify-content: center;
   gap: 8px;
 }
+
+.list:not(:last-child) {
+  margin-bottom: 8px;
+}
