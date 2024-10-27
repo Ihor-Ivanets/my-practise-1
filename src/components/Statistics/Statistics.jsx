@@ -12,7 +12,6 @@ const icons = [
 ];
 
 export const Statistics = ({ title, stats }) => {
-  console.log(stats);
 
   return (
     <>
