@@ -5,14 +5,13 @@ import { StatisticsItem } from '../StatisticsItem/StatisticsItem';
 import style from './Statistics.module.css';
 
 const icons = [
-  <FaRegThumbsUp />,
-  <MdPeople />,
-  <MdOutlineProductionQuantityLimits />,
-  <GiTreeDoor />,
+  <FaRegThumbsUp key="1" />,
+  <MdPeople key="2" />,
+  <MdOutlineProductionQuantityLimits key="3" />,
+  <GiTreeDoor key="4" />,
 ];
 
 export const Statistics = ({ title, stats }) => {
-
   return (
     <>
       {title && <h2 className={style.title}>{title}</h2>}
